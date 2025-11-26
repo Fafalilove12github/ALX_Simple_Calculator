@@ -44,4 +44,4 @@ document.getElementById('divide').addEventListener('click', function() {
     const number2 = parseFloat(document.getElementById('number2').value) || 0;
     const result = divide(number1, number2);
     document.getElementById('calculation-result').textContent = result;
-}); f
+});
